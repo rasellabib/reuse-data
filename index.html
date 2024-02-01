@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Portal</title>
+    <script src="./components/header.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/home/style.css" />
+    <link rel="stylesheet" href="./css/home/nav.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <link rel="stylesheet" href="./css/home/style.css" />
+  <body class="bg-primary-subtle">
+    <header-component></header-component>
+    <custom-heading></custom-heading>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/ourjob.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/download.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="font"><i class="ri-arrow-left-s-line"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="font"><i class="ri-arrow-right-s-line"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container align-middle" id="custom-card-container"></div>
+
+    <div class="container">
+      <div class="how-it-works">
+        <p
+          class="text-div section-title text-center custom-front-color fw-bold"
+        >
+          কিভাবে এটা কাজ করে
+        </p>
+      </div>
+
+      <div
+        class="row justify-content-between align-items-center flex-lg-row-reverse"
+      >
+        <div
+          class="col-md-4 d-flex justify-content-center align-items-center col-xs-12"
+        >
+          <img class="custom-img" src="./assets/cv-analysis.png" alt="" />
+        </div>
+        <div class="col-md-7 col-sm-12 col-xs-12">
+          <p class="text-div custom-front-size custom-front-color fw-bold">
+            সিভি বিশ্লেষণ করুন
+          </p>
+          <p class="text-div fs-5 text-primary-emphasis">
+            আপনার সিভি আমাদের সাথে শেয়ার করুন। আপনার CV হতে আমরা আপনার সম্পর্কে
+            একটি স্বচ্ছ ধারনা পাবো। আপনার বর্তমান skill set এর উপর নির্ভর করবে
+            আপনার চাকুরী পাবার সম্ভাবনা।
+          </p>
+        </div>
+      </div>
+
+      <div class="row item-card justify-content-between align-items-center">
+        <div
+          class="col-md-4 d-flex justify-content-center align-items-center col-xs-12"
+        >
+          <img class="custom-img" src="./assets/mock-interview.png" alt="" />
+        </div>
+        <div class="col-md-7 col-sm-12 col-xs-12">
+          <p class="text-div custom-front-size custom-front-color fw-bold">
+            সাক্ষাতকার
+          </p>
+          <p class="text-div fs-5 text-primary-emphasis">
+            আপনার সাথে সাক্ষাতকার নিয়ে আপনার যাবতীয় সমস্যা ও সে সকল সমস্যা
+            সমাধান এর জন্য কি কি করনীয় তা সাধ্যমত জানাবো।
+          </p>
+        </div>
+        <div
+          class="row item-card justify-content-between align-items-center flex-lg-row-reverse"
+        >
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center col-xs-12"
+          >
+            <img class="custom-img" src="./assets/job-refer.png" alt="" />
+          </div>
+          <div class="col-md-7 col-sm-12 col-xs-12">
+            <p class="text-div custom-front-size custom-front-color fw-bold">
+              কাজের রেফার
+            </p>
+            <p class="text-div fs-5 text-primary-emphasis">
+              আপনার বর্তমান skill set এর ভিত্তিতে আমরা আপনার জন্য সবচেয়ে উপযুক্ত
+              কোম্পানীগুলো সাজেষ্ট করবো। Skill set এর ঘাটতি থাকলে আমরা পুরনের
+              জন্য বিভিন্ন Course বা Training সাজেষ্ট করবো।
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-2">
+      <footer-dev></footer-dev>
+    </div>
+    <script src="./components/heading.js"></script>
+    <script src="../components/footer.js"></script>
+    <script src="./js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

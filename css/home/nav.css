@@ -1,0 +1,39 @@
+.logo {
+  height: 30px;
+  width: 30px;
+}
+.button {
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 50% !important;
+    border: none !important;
+    background-color: rgb(57, 91, 154) !important;
+    box-shadow: 0 0px 20px 0 rgb(0, 172, 237);
+    transition: all 0.4s;
+}
+
+.button-2 {
+
+
+
+
+    
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 50% !important;
+    border: none !important;
+    background-color: rgb(0, 172, 237) !important;
+    box-shadow: 0 0px 20px 0 rgb(0, 172, 237);
+    transition: all 0.4s;
+
+}
+
+.button:hover {
+    width: 90px !important;
+    border-radius: 50px !important;
+}
+
+.button-2:hover {
+    width: 90px !important;
+    border-radius: 50px !important;
+}
